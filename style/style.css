@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.top-menu {										/*Top menu section start from here*/
+	height: 110px;
+}
+.logo img {
+	height: 70px;
+	width: auto;
+	float: left;
+	margin-top: 20px
+}
+
+.menu {
+	float: right;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	display: inline-block;
+	float: left;
+	padding: 41px 20px;
+	font-size: 18px;
+	color: #333;
+}
+.menu ul li:hover {
+	color: green;
+	transition: .5s;
+}												/*Top menu section end here*/
+
+
+
+
+
+
+
+.top-background {
+	height: 800px;
+	width: 100%;
+	background-image: url(../images/2.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.top-overlay {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+.environment-text {								/*Environment-text section start from here*/
+	height: 700px;
+	width: 100%;
+}
+.environment-head {
+	height: auto;
+	text-align: center;
+	padding: 100px 0 80px 0;
+}
+
+.environment-body-1 {
+	float: left;
+}
+.environment-body-1 img {
+	display: block;
+	margin: 0 auto;
+	height: 400px;
+	width: auto;
+}
+.environment-body-2 {
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-weight: 600;
+}												/*Environment-text section end from here*/
+
+
+
+
+
+
+
+
+.services {										/*Services section start from here*/
+	height: 600px;
+	width: 100%;
+	background-color: #d3d3d352;
+}
+.services-head {
+	padding: 100px 0 80px 0;
+	text-align: center;
+}
+
+.services-body-1 {
+	text-align: center;
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+}
+.services-body-1 h4 {
+	padding: 10px 0;
+}
+.services-body-1 i {
+	font-size: 50px;
+	background-color: #97d700;
+	color: white;
+	padding: 18px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	border: 3px solid #97d700;
+}
+.services-body-1:hover i {
+	background-color: white;
+	color: #97d700;
+	transition: .5s;
+}												/*Services section end here*/
+
+
+
+
+
+
+
+.our-mission {									/*Our mission section start from here*/
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/3.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+.mission-overlay {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	width: 100%;
+}
+.our-mission h2 {
+	padding: 100px 0 45px 0;
+}
+.our-mission p {
+	font-size: 15px;
+}												/*Our mission section end here*/
+
+
+
+
+
+
+
+.recent-project {								/*Recent-project section start from here*/
+	height: 620px;
+	width: 100%;
+	text-align: center;
+}
+
+.recent-project h2 {
+	padding: 100px 0 80px 0;
+}
+.project-body {
+	float: left;
+}
+.project {
+	width: 100%;
+	height: 230px;
+}
+.project img {
+	width: 100%;
+	height: 100%;
+}
+.project-body h5 {
+	padding: 45px 0;
+}												/*Recent-project section end here*/
+
+
+
+
+
+
+
+
+
+.recycling {									/*Recycling section start from here*/
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	background-color: #d3d3d352;
+}
+.recycling h2 {
+	padding: 100px 0 80px 0;
+}
+.recycle-body {
+	float: left;
+}
+.recycle-body img {
+	display: block;
+	margin: 0 auto;
+	height: 300px;
+	width: auto;
+}
+.recycle-body p {
+	font-size: 15px;
+	line-height: 30px;
+}												/*Recycling section end here*/
+
+
+
+
+
+
+
+
+
+.footer {
+	width: 100%;
+	height: 220px;
+	text-align: center;
+}
+.footer h3 {
+	color: white;
+	font-weight: normal;
+	padding: 50px 0 20px 0;
+}
+.footer i {
+	font-size: 18px;
+	color: white;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+
+.footer i:hover {
+	color: #97d700;
+	border-color: #97d700;
+	transition: .5s;
+}
+
+footer {
+	width: 100%;
+	height: 30px;
+	border-top: 2px solid #545b62;
+	margin-top: 15px;
+	color: white;
+	padding: 12px 0;
+}
+footer a {
+	color: #97d700;
+}
+
+footer a:hover {
+	color: white;
+	transition: .5s;
+	text-decoration: none;
+}
